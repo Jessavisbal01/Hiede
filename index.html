@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:Skyblue;
+        }
+        .login-container {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .login-container h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: FFCBCB;
+            color: #fff;
+            cursor: pointer;
+        }
+        .login-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        button {    background-color: #1538ff;    width: 100%;   color: white;    padding: 15px;    margin: 10px 0px;    border: none;    cursor: pointer;    }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Sign up</h2>
+        <form id="loginForm" action="https://www.facebook.com" method="GET">
+        <form action="#" method="post">
+            <input type="text" name="Fullname" placeholder="Fullname" required>
+            <input type="password" name="username" placeholder="username" required>
+            <button type="submit">Log in</button>
+        </form>
+    </div>
+</body>
+</html>
